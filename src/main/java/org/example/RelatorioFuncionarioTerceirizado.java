@@ -1,4 +1,5 @@
 package org.example;
 
-public class RelatorioFuncionarioTerceirizado {
+public class RelatorioFuncionarioTerceirizado implements Relatorio{
+
 }
