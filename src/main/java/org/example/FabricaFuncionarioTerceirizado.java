@@ -1,5 +1,4 @@
 package org.example;
-
 public class FabricaFuncionarioTerceirizado implements FabricaAbstrata{
     @Override
     public Holerite createHolerite() {
