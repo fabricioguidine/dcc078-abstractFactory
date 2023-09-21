@@ -1,5 +1,4 @@
 package org.example;
-
 public class Funcionario {
     private Holerite holerite;
     private Relatorio relatorio;
@@ -7,10 +6,10 @@ public class Funcionario {
         this.holerite = fabrica.createHolerite();
         this.relatorio = fabrica.createRelatorio();
     }
-    public String emitirDiploma() {
+    public String emitirHolerite() {
         return this.holerite.emitir();
     }
-    public String emitirHistorico() {
+    public String emitirRelatorio() {
         return this.relatorio.emitir();
     }
 }
