@@ -9,24 +9,24 @@ class FuncionarioTest {
     void deveEmitirHoleriteFuncionarioInterno() {
         FabricaAbstrata fabrica = new FabricaFuncionarioInterno();
         Funcionario funcionario = new Funcionario(fabrica);
-        assertEquals("Holerite Funcionário: Interno.", funcionario.emitirHolerite());
+        assertEquals("Holerite do Funcionário: Interno.", funcionario.emitirHolerite());
     }
     @Test
     void deveEmitirHoleriteFuncionarioTerceirizado() {
         FabricaAbstrata fabrica = new FabricaFuncionarioTerceirizado();
         Funcionario funcionario = new Funcionario(fabrica);
-        assertEquals("Holerite Funcionário: Terceirizado.", funcionario.emitirHolerite());
+        assertEquals("Holerite do Funcionário: Terceirizado.", funcionario.emitirHolerite());
     }
     @Test
     void deveEmitirRelatorioFuncionarioInterno() {
         FabricaAbstrata fabrica = new FabricaFuncionarioInterno();
         Funcionario funcionario = new Funcionario(fabrica);
-        assertEquals("Relatório Funcionário: Interno.", funcionario.emitirRelatorio());
+        assertEquals("Relatório do Funcionário: Interno.", funcionario.emitirRelatorio());
     }
     @Test
     void deveEmitirRelatorioFuncionarioTerceirizado() {
         FabricaAbstrata fabrica = new FabricaFuncionarioTerceirizado();
         Funcionario funcionario = new Funcionario(fabrica);
-        assertEquals("Relatório Funcionário: Terceirizado.", funcionario.emitirRelatorio());
+        assertEquals("Relatório do Funcionário: Terceirizado.", funcionario.emitirRelatorio());
     }
 }

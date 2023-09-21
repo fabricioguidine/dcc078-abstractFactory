@@ -2,6 +2,6 @@ package org.example;
 
 public class HoleriteFuncionarioInterno implements Holerite{
     public String emitir() {
-        return "Holerite do Funcionario: Interno.";
+        return "Holerite do Funcionário: Interno.";
     }
 }

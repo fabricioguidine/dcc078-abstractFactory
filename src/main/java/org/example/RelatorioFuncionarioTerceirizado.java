@@ -2,6 +2,6 @@ package org.example;
 
 public class RelatorioFuncionarioTerceirizado implements Relatorio{
     public String emitir() {
-        return "Relatório Funcionário: Terceirizado.";
+        return "Relatório do Funcionário: Terceirizado.";
     }
 }
