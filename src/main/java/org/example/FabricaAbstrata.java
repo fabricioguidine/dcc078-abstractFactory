@@ -1,4 +1,6 @@
 package org.example;
 
-public class FabricaAbstrata {
+public interface FabricaAbstrata {
+    Holerite createHolerite();
+    Relatorio createRelatorio();
 }

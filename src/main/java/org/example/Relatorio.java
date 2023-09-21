@@ -1,4 +1,5 @@
 package org.example;
 
-public class Relatorio {
+public interface Relatorio {
+    String emitir();
 }
